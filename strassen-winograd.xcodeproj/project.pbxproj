@@ -1,0 +1,232 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6965E8D917FCC38600D54294 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6965E8D817FCC38600D54294 /* main.c */; };
+		6965E8DB17FCC38600D54294 /* strassen_winograd.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6965E8DA17FCC38600D54294 /* strassen_winograd.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6965E8D317FCC38600D54294 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				6965E8DB17FCC38600D54294 /* strassen_winograd.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6965E8D517FCC38600D54294 /* strassen-winograd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "strassen-winograd"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6965E8D817FCC38600D54294 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		6965E8DA17FCC38600D54294 /* strassen_winograd.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = strassen_winograd.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6965E8D217FCC38600D54294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6965E8CC17FCC38600D54294 = {
+			isa = PBXGroup;
+			children = (
+				6965E8D717FCC38600D54294 /* strassen-winograd */,
+				6965E8D617FCC38600D54294 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6965E8D617FCC38600D54294 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6965E8D517FCC38600D54294 /* strassen-winograd */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6965E8D717FCC38600D54294 /* strassen-winograd */ = {
+			isa = PBXGroup;
+			children = (
+				6965E8D817FCC38600D54294 /* main.c */,
+				6965E8DA17FCC38600D54294 /* strassen_winograd.1 */,
+			);
+			path = "strassen-winograd";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6965E8D417FCC38600D54294 /* strassen-winograd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6965E8DE17FCC38600D54294 /* Build configuration list for PBXNativeTarget "strassen-winograd" */;
+			buildPhases = (
+				6965E8D117FCC38600D54294 /* Sources */,
+				6965E8D217FCC38600D54294 /* Frameworks */,
+				6965E8D317FCC38600D54294 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "strassen-winograd";
+			productName = "strassen-winograd";
+			productReference = 6965E8D517FCC38600D54294 /* strassen-winograd */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6965E8CD17FCC38600D54294 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pavel Kravets";
+			};
+			buildConfigurationList = 6965E8D017FCC38600D54294 /* Build configuration list for PBXProject "strassen-winograd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6965E8CC17FCC38600D54294;
+			productRefGroup = 6965E8D617FCC38600D54294 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6965E8D417FCC38600D54294 /* strassen-winograd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6965E8D117FCC38600D54294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6965E8D917FCC38600D54294 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6965E8DC17FCC38600D54294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6965E8DD17FCC38600D54294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6965E8DF17FCC38600D54294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6965E8E017FCC38600D54294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6965E8D017FCC38600D54294 /* Build configuration list for PBXProject "strassen-winograd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6965E8DC17FCC38600D54294 /* Debug */,
+				6965E8DD17FCC38600D54294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6965E8DE17FCC38600D54294 /* Build configuration list for PBXNativeTarget "strassen-winograd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6965E8DF17FCC38600D54294 /* Debug */,
+				6965E8E017FCC38600D54294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6965E8CD17FCC38600D54294 /* Project object */;
+}
