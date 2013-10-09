@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		6965E8D917FCC38600D54294 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6965E8D817FCC38600D54294 /* main.c */; };
 		6965E8DB17FCC38600D54294 /* strassen_winograd.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6965E8DA17FCC38600D54294 /* strassen_winograd.1 */; };
+		6965E8E417FCC52B00D54294 /* matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 6965E8E317FCC52B00D54294 /* matrix.c */; };
+		6965E8E817FE0A8700D54294 /* winograd.c in Sources */ = {isa = PBXBuildFile; fileRef = 6965E8E717FE0A8700D54294 /* winograd.c */; };
+		6965E8EB18016EDC00D54294 /* strassen.c in Sources */ = {isa = PBXBuildFile; fileRef = 6965E8EA18016EDC00D54294 /* strassen.c */; };
+		6965E8ED1801FE0200D54294 /* naive.c in Sources */ = {isa = PBXBuildFile; fileRef = 6965E8EC1801FE0200D54294 /* naive.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +32,14 @@
 		6965E8D517FCC38600D54294 /* strassen-winograd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "strassen-winograd"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6965E8D817FCC38600D54294 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		6965E8DA17FCC38600D54294 /* strassen_winograd.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = strassen_winograd.1; sourceTree = "<group>"; };
+		6965E8E217FCC42B00D54294 /* matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix.h; sourceTree = "<group>"; };
+		6965E8E317FCC52B00D54294 /* matrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = matrix.c; sourceTree = "<group>"; };
+		6965E8E517FE041800D54294 /* naive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = naive.h; sourceTree = "<group>"; };
+		6965E8E617FE0A7900D54294 /* winograd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = winograd.h; sourceTree = "<group>"; };
+		6965E8E717FE0A8700D54294 /* winograd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = winograd.c; sourceTree = "<group>"; };
+		6965E8E918016EA200D54294 /* strassen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strassen.h; sourceTree = "<group>"; };
+		6965E8EA18016EDC00D54294 /* strassen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strassen.c; sourceTree = "<group>"; };
+		6965E8EC1801FE0200D54294 /* naive.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = naive.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,14 @@
 			children = (
 				6965E8D817FCC38600D54294 /* main.c */,
 				6965E8DA17FCC38600D54294 /* strassen_winograd.1 */,
+				6965E8E217FCC42B00D54294 /* matrix.h */,
+				6965E8E317FCC52B00D54294 /* matrix.c */,
+				6965E8E517FE041800D54294 /* naive.h */,
+				6965E8EC1801FE0200D54294 /* naive.c */,
+				6965E8E617FE0A7900D54294 /* winograd.h */,
+				6965E8E717FE0A8700D54294 /* winograd.c */,
+				6965E8E918016EA200D54294 /* strassen.h */,
+				6965E8EA18016EDC00D54294 /* strassen.c */,
 			);
 			path = "strassen-winograd";
 			sourceTree = "<group>";
@@ -117,6 +137,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6965E8E817FE0A8700D54294 /* winograd.c in Sources */,
+				6965E8E417FCC52B00D54294 /* matrix.c in Sources */,
+				6965E8ED1801FE0200D54294 /* naive.c in Sources */,
+				6965E8EB18016EDC00D54294 /* strassen.c in Sources */,
 				6965E8D917FCC38600D54294 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
